@@ -111,5 +111,7 @@ hs_err_pid*
 
 # All idea files
 /.idea
+/output
+/output/**
 
 # End of https://www.gitignore.io/api/java,intellij
