@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/Easy_2_IntegerReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/Easy_2_IntegerReverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +37,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="y" value="110" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
-  </component>
   <component name="ProjectId" id="1jDP7EjdlU0id2BVzKWR74bMaiP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/com/cryallen/leetcode/easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Easy_1_TwoSum">
+  <component name="RunManager" selected="Application.Easy_2_IntegerReverse">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -175,8 +169,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Easy_1_TwoSum" />
         <item itemvalue="Application.Easy_2_IntegerReverse" />
+        <item itemvalue="Application.Easy_1_TwoSum" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.LinkedListAlgo" />
       </list>
@@ -253,26 +247,26 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1864" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1603335560127" />
-    <state width="1878" height="281" key="GridCell.Tab.0.bottom" timestamp="1603337188541">
+    <state width="1878" height="281" key="GridCell.Tab.0.bottom" timestamp="1604886469849">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="281" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1603337188541" />
-    <state width="1878" height="281" key="GridCell.Tab.0.center" timestamp="1603337188540">
+    <state width="1878" height="281" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604886469849" />
+    <state width="1878" height="281" key="GridCell.Tab.0.center" timestamp="1604886469848">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="281" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1603337188540" />
-    <state width="1878" height="281" key="GridCell.Tab.0.left" timestamp="1603337188540">
+    <state width="1878" height="281" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604886469848" />
+    <state width="1878" height="281" key="GridCell.Tab.0.left" timestamp="1604886469847">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="281" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1603337188540" />
-    <state width="1878" height="281" key="GridCell.Tab.0.right" timestamp="1603337188540">
+    <state width="1878" height="281" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604886469847" />
+    <state width="1878" height="281" key="GridCell.Tab.0.right" timestamp="1604886469849">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="281" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1603337188540" />
-    <state x="2079" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1603346296916">
+    <state width="1878" height="281" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604886469849" />
+    <state x="2079" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1604652918362">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="2079" y="384" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1603346296916" />
+    <state x="2079" y="384" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604652918362" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
