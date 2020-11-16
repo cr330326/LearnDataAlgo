@@ -1,4 +1,4 @@
-package com.cryallen.leetcode.easy;
+package com.cryallen.leetcode.easy.array;
 
 import java.math.BigInteger;
 
