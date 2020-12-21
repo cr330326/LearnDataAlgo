@@ -1,4 +1,4 @@
-package com.cryallen.leetcode.easy.link;
+package com.cryallen.leetcode.easy;
 
 /***
  *

@@ -1,4 +1,4 @@
-package com.cryallen.leetcode;
+package com.cryallen.leetcode.easy.link;
 
 public class LinkedListAlgo {
 

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_3_RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_4_RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/link/Easy_206_ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/Easy_1_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_1_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/Easy_2_IntegerReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_2_IntegerReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/link/Medium_1_AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/LinkedListAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/link/LinkedListAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/link/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,30 +61,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cryallen.leetcode.easy.link" />
       <recent name="com.cryallen.leetcode.easy.array" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/cryallen/leetcode/easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Easy_3_RemoveDuplicates">
+  <component name="RunManager" selected="Application.Easy_206_ReverseLinkedList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_212" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.AddTwoNumbers" />
-      <module name="LearnDataAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +83,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Easy_206_ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_212" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.link.Easy_206_ReverseLinkedList" />
+      <module name="LearnDataAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,14 +120,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Easy_3_RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_212" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_3_RemoveDuplicates" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.link.LinkedListAlgo" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,14 +135,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Medium_1_AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_212" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.LinkedListAlgo" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.link.Medium_1_AddTwoNumbers" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.*" />
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,19 +184,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddTwoNumbers" />
       <item itemvalue="Application.Easy_1_TwoSum" />
-      <item itemvalue="Application.Easy_2_IntegerReverse" />
+      <item itemvalue="Application.Medium_1_AddTwoNumbers" />
+      <item itemvalue="Application.Easy_206_ReverseLinkedList" />
       <item itemvalue="Application.LinkedListAlgo" />
-      <item itemvalue="Application.Easy_3_RemoveDuplicates" />
+      <item itemvalue="Application.Easy_2_IntegerReverse" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Easy_3_RemoveDuplicates" />
-        <item itemvalue="Application.Easy_1_TwoSum" />
+        <item itemvalue="Application.Easy_206_ReverseLinkedList" />
         <item itemvalue="Application.Easy_2_IntegerReverse" />
-        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.Easy_1_TwoSum" />
         <item itemvalue="Application.LinkedListAlgo" />
+        <item itemvalue="Application.Medium_1_AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -266,39 +267,41 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2000" y="217" key="#Project_Structure/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1603335533663" />
-    <state x="318" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605505354266">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="1864" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608522762880">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="318" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1605505354266" />
-    <state x="1864" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1603335560127" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1605508516950">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="1864" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608522762880" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom" timestamp="1608522766266">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1605508516950" />
-    <state width="1878" height="281" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604886469849" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1605508516949">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1605511432326" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608522766266" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center" timestamp="1608522766265">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1605508516949" />
-    <state width="1878" height="281" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604886469848" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1605508516949">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1605511432325" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608522766265" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left" timestamp="1608522766264">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1605508516949" />
-    <state width="1878" height="281" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604886469847" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1605508516949">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1605511432323" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608522766264" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right" timestamp="1608522766265">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1605508516949" />
-    <state width="1878" height="281" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604886469849" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1605511432325" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608522766265" />
     <state x="352" y="122" key="SettingsEditor" timestamp="1605503794632">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="352" y="122" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1605503794632" />
     <state x="1909" y="190" key="SettingsEditor/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604913882084" />
-    <state x="2079" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1604913774770">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="639" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1608520426985">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="639" y="204" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1608287896905" />
+    <state x="639" y="204" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1608520426985" />
     <state x="2079" y="384" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604913774770" />
     <state x="114" y="56" key="new project wizard" timestamp="1605503966707">
       <screen x="0" y="23" width="1440" height="821" />
