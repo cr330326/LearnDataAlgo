@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/link/Easy_21_MergeTwoSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +39,12 @@
   <component name="ProjectId" id="1jDP7EjdlU0id2BVzKWR74bMaiP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -54,7 +54,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.13016272" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -65,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/com/cryallen/leetcode/easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Easy_21_MergeTwoSortedLists">
+  <component name="RunManager" selected="Application.Easy_1_TwoSum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -183,32 +183,21 @@
     <list>
       <item itemvalue="Application.Easy_1_TwoSum" />
       <item itemvalue="Application.Easy_206_ReverseLinkedList" />
-      <item itemvalue="Application.LinkedListAlgo" />
-      <item itemvalue="Application.Easy_2_IntegerReverse" />
       <item itemvalue="Application.Easy_21_MergeTwoSortedLists" />
+      <item itemvalue="Application.Easy_2_IntegerReverse" />
+      <item itemvalue="Application.LinkedListAlgo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Easy_1_TwoSum" />
         <item itemvalue="Application.Easy_21_MergeTwoSortedLists" />
         <item itemvalue="Application.Easy_206_ReverseLinkedList" />
         <item itemvalue="Application.Easy_2_IntegerReverse" />
-        <item itemvalue="Application.Easy_1_TwoSum" />
         <item itemvalue="Application.LinkedListAlgo" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -223,23 +212,31 @@
       <workItem from="1589859811731" duration="1324000" />
       <workItem from="1591670289208" duration="6985000" />
       <workItem from="1595388558434" duration="54000" />
+      <workItem from="1610344906642" duration="194000" />
+      <workItem from="1610356525832" duration="1012000" />
+      <workItem from="1610358228525" duration="1110000" />
+      <workItem from="1610362796843" duration="9000" />
+      <workItem from="1610362873293" duration="1000" />
+      <workItem from="1610362890842" duration="26000" />
+      <workItem from="1610592183000" duration="1000" />
+      <workItem from="1610718851952" duration="41000" />
+      <workItem from="1613976524938" duration="24000" />
+      <workItem from="1613976762667" duration="332000" />
+      <workItem from="1613991328607" duration="61000" />
+      <workItem from="1614052207813" duration="582000" />
+      <workItem from="1617072995228" duration="328000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8655000" />
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -258,52 +255,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2000" y="217" key="#Project_Structure" timestamp="1603335533663">
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1614055764806">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="2000" y="217" key="#Project_Structure/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1603335533663" />
-    <state x="1864" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608605501052">
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614055764806" />
+    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1614055764805">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="318" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1605505354266" />
-    <state x="1864" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608605501052" />
-    <state width="1878" height="280" key="GridCell.Tab.0.bottom" timestamp="1608614463917">
+    <state width="1878" height="282" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614055764805" />
+    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1614055764805">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1605511432326" />
-    <state width="1878" height="280" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608614463917" />
-    <state width="1878" height="280" key="GridCell.Tab.0.center" timestamp="1608614463915">
+    <state width="1878" height="282" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614055764805" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1614055764806">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1605511432325" />
-    <state width="1878" height="280" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608614463915" />
-    <state width="1878" height="280" key="GridCell.Tab.0.left" timestamp="1608614463913">
+    <state width="1878" height="282" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614055764806" />
+    <state x="2079" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1613977243604">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1605511432323" />
-    <state width="1878" height="280" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608614463913" />
-    <state width="1878" height="280" key="GridCell.Tab.0.right" timestamp="1608614463916">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1605511432325" />
-    <state width="1878" height="280" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608614463916" />
-    <state x="352" y="122" key="SettingsEditor" timestamp="1605503794632">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="352" y="122" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1605503794632" />
-    <state x="1909" y="190" key="SettingsEditor/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1604913882084" />
-    <state x="2079" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1608603460978">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state x="639" y="204" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1608287896905" />
-    <state x="639" y="204" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1608520426985" />
-    <state x="2079" y="384" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.821@1440.23.1920.1057" timestamp="1608603460978" />
-    <state x="114" y="56" key="new project wizard" timestamp="1605503966707">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="114" y="56" key="new project wizard/0.23.1440.821@0.23.1440.821" timestamp="1605503966707" />
+    <state x="2079" y="384" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1613977243604" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
