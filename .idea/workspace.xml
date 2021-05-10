@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_5_Maximum_SubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_4_RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_4_RemoveElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,14 +77,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cryallen.leetcode.easy.link" />
       <recent name="com.cryallen.leetcode.easy.array" />
+      <recent name="com.cryallen.leetcode.easy.link" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/cryallen/leetcode/easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Easy_4_RemoveElement">
+  <component name="RunManager" selected="Application.Easy_5_Maximum_SubArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -136,10 +136,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Easy_2_IntegerReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_212" />
+    <configuration name="Easy_4_RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_2_IntegerReverse" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_4_RemoveElement" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
@@ -151,10 +151,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Easy_4_RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Easy_5_Maximum_SubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_4_RemoveElement" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_5_Maximum_SubArray" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
@@ -203,16 +203,16 @@
       <item itemvalue="Application.Easy_1_TwoSum" />
       <item itemvalue="Application.Easy_206_ReverseLinkedList" />
       <item itemvalue="Application.Easy_21_MergeTwoSortedLists" />
-      <item itemvalue="Application.Easy_2_IntegerReverse" />
       <item itemvalue="Application.Easy_4_RemoveElement" />
+      <item itemvalue="Application.Easy_5_Maximum_SubArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Easy_5_Maximum_SubArray" />
         <item itemvalue="Application.Easy_4_RemoveElement" />
         <item itemvalue="Application.Easy_1_TwoSum" />
         <item itemvalue="Application.Easy_21_MergeTwoSortedLists" />
         <item itemvalue="Application.Easy_206_ReverseLinkedList" />
-        <item itemvalue="Application.Easy_2_IntegerReverse" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +244,7 @@
       <workItem from="1613991328607" duration="61000" />
       <workItem from="1614052207813" duration="582000" />
       <workItem from="1617072995228" duration="847000" />
-      <workItem from="1620612606199" duration="2652000" />
+      <workItem from="1620612606199" duration="3503000" />
     </task>
     <servers />
   </component>
