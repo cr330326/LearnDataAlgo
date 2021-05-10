@@ -62,32 +62,27 @@ public class Easy_4_RemoveElement {
 
 	public static void main(String[] args) {
 		int[] nums1 = new int[]{1,1,2,2,11,15};
-		int result1 = removeElement(nums1);
+		int result1 = removeElement(nums1,2);
 		System.out.println("result1: " + result1);
 	}
 
 	/**
 	 * 双角标，删除元素
 	 * */
-	public static int removeElement(int[] nums) {
-		int result = 0;
+	public static int removeElement(int[] nums,int val) {
 		int length = nums.length;
-		System.out.println("nums length:" + length);
 		if(length == 0){
 			return 0;
 		}
-		int i = 0;
-		for(int j = i+1; j < length;j++){
-			System.out.println("nums start j:" + j +",i:" + i);
-			if(nums[i] != nums[j]) {
-				i++;
-				if (i != j) {
-					nums[i] = nums[j];
-				}
+		int left = 0;
+		for(int right = 0; right < length;right++){
+			System.out.println("nums start left:" + left +",right:" + right);
+			if(nums[right] != val) {
+				nums[left] = nums[right];
+				left++;
 			}
-			System.out.println("nums end j:" + j +",i:" + i);
+			System.out.println("nums end left:" + left +",right:" + right);
 		}
-		result = i+1;
-		return result;
+		return left;
 	}
 }
