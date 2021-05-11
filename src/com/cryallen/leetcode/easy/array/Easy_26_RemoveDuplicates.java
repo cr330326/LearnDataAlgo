@@ -2,11 +2,11 @@ package com.cryallen.leetcode.easy.array;
 
 
 /***
- * 删除排序数组中的重复项
+ * 26,删除排序数组中的重复项
  * @author Allen
  * @DATE 2020-11-16
  ***/
-public class Easy_3_RemoveDuplicates {
+public class Easy_26_RemoveDuplicates {
 	/**
 	 * 删除排序数组中的重复项
 	 *

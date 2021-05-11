@@ -6,7 +6,7 @@ package com.cryallen.leetcode.easy.array;
  * @author Allen
  * @DATE 2021-5-11
  ***/
-public class Easy_6_Search_Insert_Position {
+public class Easy_35_Search_Insert_Position {
 	/**
 	 * 搜索插入位置
 	 *

@@ -2,11 +2,11 @@ package com.cryallen.leetcode.easy.array;
 
 
 /***
- * 移除元素
+ * 27. 移除元素
  * @author Allen
  * @DATE 2020-11-16
  ***/
-public class Easy_4_RemoveElement {
+public class Easy_27_RemoveElement {
 	/**
 	 * 移除元素
 	 *

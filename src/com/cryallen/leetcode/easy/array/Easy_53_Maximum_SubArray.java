@@ -6,7 +6,7 @@ package com.cryallen.leetcode.easy.array;
  * @author Allen
  * @DATE 2021-5-10
  ***/
-public class Easy_5_Maximum_SubArray {
+public class Easy_53_Maximum_SubArray {
 	/**
 	 * 最大子序和
 	 *

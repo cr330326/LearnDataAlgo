@@ -3,11 +3,11 @@ package com.cryallen.leetcode.easy.array;
 import java.math.BigInteger;
 
 /***
- * 整数反转
+ * 7.整数反转
  * @author Allen
  * @DATE 2020-06-09
  ***/
-public class Easy_2_IntegerReverse {
+public class Easy_7_IntegerReverse {
 
     /**
      * 整数反转
