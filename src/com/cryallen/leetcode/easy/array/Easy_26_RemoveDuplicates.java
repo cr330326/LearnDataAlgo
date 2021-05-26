@@ -64,7 +64,6 @@ public class Easy_26_RemoveDuplicates {
 	 * 双角标，快慢实现处理
 	 * */
 	public static int removeDuplicates(int[] nums) {
-		int result = 0;
 		int length = nums.length;
 		System.out.println("nums length:" + length);
 		if(length == 0){
@@ -81,7 +80,6 @@ public class Easy_26_RemoveDuplicates {
 			}
 			System.out.println("nums end j:" + j +",i:" + i);
 		}
-		result = i+1;
-		return result;
+		return i+1;
 	}
 }
