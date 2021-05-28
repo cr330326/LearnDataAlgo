@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_209_Minimum_Size_SubArray_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_704_Binary_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Medium_59_Spiral_Matrix_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_26_RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_26_RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_209_Minimum_Size_SubArray_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Medium_209_Minimum_Size_SubArray_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_27_RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_27_RemoveElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,54 +87,9 @@
       <recent name="$PROJECT_DIR$/src/com/cryallen/leetcode/easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Easy_209_Minimum_Size_SubArray_Sum">
+  <component name="RunManager" selected="Application.Medium_59_Spiral_Matrix_II">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Easy_141_Linked_list_cycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.link.Easy_141_Linked_list_cycle" />
-      <module name="LearnDataAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.easy.link.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Easy_206_ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.link.Easy_206_ReverseLinkedList" />
-      <module name="LearnDataAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.easy.link.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Easy_209_Minimum_Size_SubArray_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_209_Minimum_Size_SubArray_Sum" />
-      <module name="LearnDataAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,10 +109,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Easy_35_Search_Insert_Position" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Easy_27_RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_35_Search_Insert_Position" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_27_RemoveElement" />
+      <module name="LearnDataAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Easy_704_Binary_Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_704_Binary_Search" />
+      <module name="LearnDataAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Medium_209_Minimum_Size_SubArray_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Medium_209_Minimum_Size_SubArray_Sum" />
+      <module name="LearnDataAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Medium_59_Spiral_Matrix_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Medium_59_Spiral_Matrix_II" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
@@ -201,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Easy_35_Search_Insert_Position" />
       <item itemvalue="Application.Easy_26_RemoveDuplicates" />
-      <item itemvalue="Application.Easy_206_ReverseLinkedList" />
-      <item itemvalue="Application.Easy_141_Linked_list_cycle" />
-      <item itemvalue="Application.Easy_209_Minimum_Size_SubArray_Sum" />
+      <item itemvalue="Application.Medium_209_Minimum_Size_SubArray_Sum" />
+      <item itemvalue="Application.Easy_704_Binary_Search" />
+      <item itemvalue="Application.Easy_27_RemoveElement" />
+      <item itemvalue="Application.Medium_59_Spiral_Matrix_II" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Easy_209_Minimum_Size_SubArray_Sum" />
+        <item itemvalue="Application.Medium_59_Spiral_Matrix_II" />
+        <item itemvalue="Application.Easy_27_RemoveElement" />
+        <item itemvalue="Application.Easy_704_Binary_Search" />
+        <item itemvalue="Application.Medium_209_Minimum_Size_SubArray_Sum" />
         <item itemvalue="Application.Easy_26_RemoveDuplicates" />
-        <item itemvalue="Application.Easy_141_Linked_list_cycle" />
-        <item itemvalue="Application.Easy_206_ReverseLinkedList" />
-        <item itemvalue="Application.Easy_35_Search_Insert_Position" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +251,8 @@
       <workItem from="1620698846619" duration="63000" />
       <workItem from="1620698925201" duration="5239000" />
       <workItem from="1620720431527" duration="408000" />
-      <workItem from="1621999847547" duration="3868000" />
+      <workItem from="1621999847547" duration="4422000" />
+      <workItem from="1622204842274" duration="7657000" />
     </task>
     <servers />
   </component>
@@ -283,30 +286,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="390" key="GridCell.Tab.0.bottom" timestamp="1622006483042">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="1398" height="281" key="GridCell.Tab.0.bottom" timestamp="1622216582797">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
+    <state width="1398" height="281" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1622216582797" />
     <state width="1398" height="282" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1620617475927" />
-    <state width="1878" height="390" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.812@1440.23.1920.1057" timestamp="1622006483042" />
+    <state width="1878" height="390" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.812@1440.23.1920.1057" timestamp="1622010254420" />
     <state width="1878" height="282" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614055764806" />
-    <state width="1878" height="390" key="GridCell.Tab.0.center" timestamp="1622006483041">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="1398" height="281" key="GridCell.Tab.0.center" timestamp="1622216582795">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
+    <state width="1398" height="281" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1622216582795" />
     <state width="1398" height="282" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1620617475926" />
-    <state width="1878" height="390" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.812@1440.23.1920.1057" timestamp="1622006483041" />
+    <state width="1878" height="390" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.812@1440.23.1920.1057" timestamp="1622010254418" />
     <state width="1878" height="282" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614055764805" />
-    <state width="1878" height="390" key="GridCell.Tab.0.left" timestamp="1622006483040">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="1398" height="281" key="GridCell.Tab.0.left" timestamp="1622216582793">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
+    <state width="1398" height="281" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1622216582793" />
     <state width="1398" height="282" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1620617475925" />
-    <state width="1878" height="390" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.812@1440.23.1920.1057" timestamp="1622006483040" />
+    <state width="1878" height="390" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.812@1440.23.1920.1057" timestamp="1622010254417" />
     <state width="1878" height="282" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614055764805" />
-    <state width="1878" height="390" key="GridCell.Tab.0.right" timestamp="1622006483042">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state width="1398" height="281" key="GridCell.Tab.0.right" timestamp="1622216582796">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
+    <state width="1398" height="281" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1622216582796" />
     <state width="1398" height="282" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.812@0.23.1440.812" timestamp="1620617475926" />
-    <state width="1878" height="390" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.812@1440.23.1920.1057" timestamp="1622006483042" />
+    <state width="1878" height="390" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.812@1440.23.1920.1057" timestamp="1622010254419" />
     <state width="1878" height="282" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614055764806" />
+    <state width="1398" height="250" key="GridCell.Tab.1.bottom" timestamp="1622215697699">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.bottom/0.23.1440.812@0.23.1440.812" timestamp="1622215697699" />
+    <state width="1398" height="250" key="GridCell.Tab.1.center" timestamp="1622215697698">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.center/0.23.1440.812@0.23.1440.812" timestamp="1622215697698" />
+    <state width="1398" height="250" key="GridCell.Tab.1.left" timestamp="1622215697698">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.left/0.23.1440.812@0.23.1440.812" timestamp="1622215697698" />
+    <state width="1398" height="250" key="GridCell.Tab.1.right" timestamp="1622215697699">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.right/0.23.1440.812@0.23.1440.812" timestamp="1622215697699" />
     <state x="2079" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1613977243604">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>

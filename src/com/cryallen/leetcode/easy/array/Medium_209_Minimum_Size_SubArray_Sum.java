@@ -6,7 +6,7 @@ package com.cryallen.leetcode.easy.array;
  * @author Allen
  * @DATE 2021-5-26
  ***/
-public class Easy_209_Minimum_Size_SubArray_Sum {
+public class Medium_209_Minimum_Size_SubArray_Sum {
 	/**
 	 * 209. 长度最小的子数组
 	 *

@@ -64,10 +64,14 @@ public class Easy_27_RemoveElement {
 		int[] nums1 = new int[]{1,1,2,2,11,15};
 		int result1 = removeElement(nums1,2);
 		System.out.println("result1: " + result1);
+
+		int[] nums2 = new int[]{1,1,2,2,11,15};
+		int result2 = removeElement2(nums2, 2);
+		System.out.println("result2: " + result2);
 	}
 
 	/**
-	 * 双角标，删除元素
+	 * 双角标，删除元素 时间复杂度O(n) 双指针法（快慢指针法）： **通过一个快指针和慢指针在一个for循环下完成两个for循环的工作。**
 	 * */
 	public static int removeElement(int[] nums,int val) {
 		int length = nums.length;
@@ -84,5 +88,25 @@ public class Easy_27_RemoveElement {
 			System.out.println("nums end left:" + left +",right:" + right);
 		}
 		return left;
+	}
+
+	/**
+	 * 暴力删除法，时间复杂度O(n^)
+	 * */
+	public static int removeElement2(int[] nums,int val) {
+		int length = nums.length;
+		if(length == 0){
+			return 0;
+		}
+		for(int i = 0; i < length; i++){
+			if(nums[i] == val){ // 发现需要移除的元素，就将数组集体向前移动一位
+				for (int j = i + 1; j < length; j++){
+					nums[j - 1] = nums[j];
+				}
+				i--; // 因为下表i以后的数值都向前移动了一位，所以i也向前移动一位
+				length--; // 此时数组的大小-1
+			}
+		}
+		return length;
 	}
 }
