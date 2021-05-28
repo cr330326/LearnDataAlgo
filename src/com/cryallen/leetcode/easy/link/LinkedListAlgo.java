@@ -29,6 +29,19 @@ public class LinkedListAlgo {
         return pre;
     }
 
+    // 单链表反转
+    public static Node reverseTest(Node list) {
+        Node curr = list;
+        Node pre = null;
+        while (curr != null){
+            Node next = curr.next;
+            curr.next = pre;
+            pre = curr;
+            curr = next;
+        }
+        return pre;
+    }
+
     public static Node createNode(int value) {
         return new Node(value, null);
     }
