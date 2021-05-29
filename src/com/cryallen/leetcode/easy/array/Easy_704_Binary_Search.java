@@ -79,7 +79,7 @@ public class Easy_704_Binary_Search {
     }
 
     /**
-     * 方式1:二分查找 左闭右闭
+     * 方式1:二分查找 左闭右开
      * */
     public static int search2(int[] nums, int target) {
         if(nums.length == 0){
