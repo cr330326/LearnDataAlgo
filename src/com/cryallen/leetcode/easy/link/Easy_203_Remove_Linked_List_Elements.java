@@ -52,7 +52,7 @@ public class Easy_203_Remove_Linked_List_Elements {
      * @return
      */
     public static ListNode removeElements(ListNode head, int val) {
-        // 处理删除头结点
+        // 处理删除头结点，单独对头结点进行处理
         while (head != null && head.val == val) {
             head = head.next;
         }
