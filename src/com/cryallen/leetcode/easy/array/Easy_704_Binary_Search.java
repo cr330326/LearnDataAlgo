@@ -66,7 +66,7 @@ public class Easy_704_Binary_Search {
         }
         int left = 0, right = nums.length -1; // 定义target在左闭右闭的区间里，[left, right]
         while (left <= right){ // 当left==right，区间[left, right]依然有效，所以用 <=
-            int middle = left + ((right - left) >> 2); // 防止溢出 等同于(left + right)/2
+            int middle = left + ((right - left) >> 1); // 防止溢出 等同于(left + right)/2
             if(nums[middle] == target){
                 return middle;
             } else if (nums[middle] < target){
@@ -91,7 +91,7 @@ public class Easy_704_Binary_Search {
         }
         int left = 0, right = nums.length -1; // 定义target在左闭右开的区间里，即：[left, right)
         while (left < right){  // 因为left == right的时候，在[left, right)是无效的空间，所以使用 <
-            int middle = left + ((right - left) >> 2);
+            int middle = left + ((right - left) >> 1);
             if(nums[middle] == target){
                 return middle;
             } else if (nums[middle] > target){
@@ -120,12 +120,36 @@ public class Easy_704_Binary_Search {
         int right = length - 1;
         int middle = 0;
         while (left <= right){ // 定义target在左闭右闭的区间里，[left, right]
-            middle = left + ((right - left) >> 2);
+            middle = left + ((right - left) >> 1);
             if(nums[middle] == target){
                 return middle;
             }else if (nums[middle] > target){
                 right = middle - 1;
             }else{
+                left = middle + 1;
+            }
+        }
+        return -1;
+    }
+
+
+    /**
+     * 方式2:二分查找 左闭右开 [left,right)
+     * */
+    public static int search4(int[] nums, int target){
+        int length = nums.length;
+        if(length == 0){
+            return -1;
+        }
+        int left = 0;
+        int right = length - 1;
+        if(left < right){ // 因为left == right的时候，在[left, right)是无效的空间，所以使用 <
+            int middle = left + ((right - left) >> 1);
+            if(target == nums[middle]){
+                return middle;
+            }else if(nums[middle] > target ){
+                right = middle; // target 在左区间，在[left, middle)中
+            }else {
                 left = middle + 1;
             }
         }
