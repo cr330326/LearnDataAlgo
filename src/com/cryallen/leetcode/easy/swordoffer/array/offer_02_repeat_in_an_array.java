@@ -5,7 +5,7 @@ package com.cryallen.leetcode.easy.swordoffer.array;
  * @author Allen
  * @DATE 2020-06-03
  ***/
-public class offer_03_repeat_in_an_array {
+public class offer_02_repeat_in_an_array {
 
     /**
      * NO3. 数组中重复的数字
