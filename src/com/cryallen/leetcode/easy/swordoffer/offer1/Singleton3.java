@@ -23,4 +23,5 @@ public class Singleton3 {
     private static class Holder{
         public static final Singleton3 instance = new Singleton3();
     }
+
 }
