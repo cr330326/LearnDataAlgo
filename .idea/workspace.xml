@@ -23,13 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_1_TwoSum_New.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LearnDataAlgo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearnDataAlgo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_977_Squares_Of_A_Sorted_Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_1_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_1_TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_1_TwoSum_New.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_1_TwoSum_New.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_704_Binary_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_704_Binary_Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/array/offer_02_repeat_in_an_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/array/offer_02_repeat_in_an_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/array/offer_03_find_in_an_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/array/offer_03_find_in_an_array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +60,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "contexts": [
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
     {
-      "name": "internal"
+      &quot;name&quot;: &quot;internal&quot;
     }
   ],
-  "isMigrated": true
-}]]></component>
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="KubernetesSettings">
     <option name="contextName" value="internal" />
   </component>
@@ -89,7 +86,9 @@
   "keyToString": {
     "Application.Easy_1_TwoSum.executor": "Run",
     "Application.Easy_1_TwoSum_New.executor": "Run",
+    "Application.Easy_27_RemoveElement.executor": "Run",
     "Application.Easy_704_Binary_Search.executor": "Run",
+    "Application.Easy_977_Squares_Of_A_Sorted_Array.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -120,7 +119,7 @@
       <recent name="com.cryallen.leetcode.easy.link" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Easy_704_Binary_Search">
+  <component name="RunManager" selected="Application.Easy_977_Squares_Of_A_Sorted_Array">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -132,21 +131,6 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.queue.Consumer" />
-      <module name="LearnDataAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.easy.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,6 +165,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Easy_27_RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_27_RemoveElement" />
+      <module name="LearnDataAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Easy_704_Binary_Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -196,14 +195,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Easy_977_Squares_Of_A_Sorted_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.queue.Producer" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_977_Squares_Of_A_Sorted_Array" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.easy.queue.*" />
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,19 +235,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Easy_27_RemoveElement" />
+      <item itemvalue="Application.Easy_977_Squares_Of_A_Sorted_Array" />
       <item itemvalue="Application.Easy_1_TwoSum" />
       <item itemvalue="Application.Easy_1_TwoSum_New" />
       <item itemvalue="Application.Easy_704_Binary_Search" />
-      <item itemvalue="Application.Producer" />
-      <item itemvalue="Application.Consumer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Easy_704_Binary_Search" />
+        <item itemvalue="Application.Easy_977_Squares_Of_A_Sorted_Array" />
+        <item itemvalue="Application.Easy_27_RemoveElement" />
         <item itemvalue="Application.Easy_1_TwoSum_New" />
+        <item itemvalue="Application.Easy_704_Binary_Search" />
         <item itemvalue="Application.Easy_1_TwoSum" />
-        <item itemvalue="Application.Consumer" />
-        <item itemvalue="Application.Producer" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +306,9 @@
       <workItem from="1663842484048" duration="605000" />
       <workItem from="1715570551604" duration="1424000" />
       <workItem from="1715573309902" duration="2899000" />
-      <workItem from="1715587756208" duration="8456000" />
+      <workItem from="1715587756208" duration="9905000" />
+      <workItem from="1715611682098" duration="33000" />
+      <workItem from="1715611735609" duration="5626000" />
     </task>
     <servers />
   </component>

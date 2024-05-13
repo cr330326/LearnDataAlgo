@@ -89,7 +89,7 @@ public class Easy_704_Binary_Search {
         if (target < nums[0] || target > nums[nums.length - 1]) {
             return -1;
         }
-        int left = 0, right = nums.length -1; // 定义target在左闭右开的区间里，即：[left, right)
+        int left = 0, right = nums.length; // 定义target在左闭右开的区间里，即：[left, right)
         while (left < right){  // 因为left == right的时候，在[left, right)是无效的空间，所以使用 <
             int middle = left + ((right - left) >> 1);
             if(nums[middle] == target){
