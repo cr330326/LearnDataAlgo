@@ -15,7 +15,7 @@ public class Easy_704_Binary_Search {
      * </p>
      *
      * <p>
-     * 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。
+     * 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。
      *
      * 示例 1:
      输入: nums = [-1,0,3,5,9,12], target = 9
@@ -70,9 +70,9 @@ public class Easy_704_Binary_Search {
             if(nums[middle] == target){
                 return middle;
             } else if (nums[middle] < target){
-                left = middle + 1;
+                left = middle + 1;  //解空间变为[mid+ 1， right]
             }else{
-                right = middle - 1;
+                right = middle - 1; //解空间变为[left， mid-1]
             }
         }
         return -1;
@@ -104,7 +104,7 @@ public class Easy_704_Binary_Search {
     }
 
     /**
-     * 方式1:二分查找 左闭右闭 [left,right]
+     * 方式3:二分查找 左闭右闭 [left,right]
      * */
     public static int search3(int[] nums, int target) {
         int length = nums.length;
@@ -134,7 +134,7 @@ public class Easy_704_Binary_Search {
 
 
     /**
-     * 方式2:二分查找 左闭右开 [left,right)
+     * 方式4:二分查找 左闭右开 [left,right)
      * */
     public static int search4(int[] nums, int target){
         int length = nums.length;

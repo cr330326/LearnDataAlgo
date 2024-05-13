@@ -1,7 +1,7 @@
 package com.cryallen.leetcode.easy.swordoffer.array;
 
 /***
- * NO3. 数组中重复的数字
+ * NO3.二维数组中的查找
  * @author Allen
  * @DATE 2020-06-03
  ***/

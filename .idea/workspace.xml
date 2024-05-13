@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,13 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/queue/BasicQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/queue/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/queue/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_1_TwoSum_New.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LearnDataAlgo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearnDataAlgo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_1_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_1_TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_704_Binary_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/array/Easy_704_Binary_Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/array/offer_02_repeat_in_an_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/array/offer_02_repeat_in_an_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/array/offer_03_find_in_an_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/array/offer_03_find_in_an_array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +63,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "contexts": [
+    {
+      "name": "internal"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="internal" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="1jDP7EjdlU0id2BVzKWR74bMaiP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/queue" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.13016272" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Easy_1_TwoSum.executor": "Run",
+    "Application.Easy_1_TwoSum_New.executor": "Run",
+    "Application.Easy_704_Binary_Search.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/vsh9p8q/Personal/LearnDataAlgo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/queue" />
@@ -98,9 +120,18 @@
       <recent name="com.cryallen.leetcode.easy.link" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
+  <component name="RunManager" selected="Application.Easy_704_Binary_Search">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,14 +151,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Medium_215_kth_largest_element_in_an_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Easy_1_TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.sort.Medium_215_kth_largest_element_in_an_array" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_1_TwoSum" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.easy.sort.*" />
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Easy_1_TwoSum_New" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_1_TwoSum_New" />
+      <module name="LearnDataAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Easy_704_Binary_Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.array.Easy_704_Binary_Search" />
+      <module name="LearnDataAlgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryallen.leetcode.easy.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,36 +219,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="offer_02_repeat_in_an_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.swordoffer.array.offer_02_repeat_in_an_array" />
-      <module name="LearnDataAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.easy.swordoffer.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="offer_03_find_in_an_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.swordoffer.array.offer_03_find_in_an_array" />
-      <module name="LearnDataAlgo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cryallen.leetcode.easy.swordoffer.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -204,29 +235,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Medium_215_kth_largest_element_in_an_array" />
-      <item itemvalue="Application.offer_02_repeat_in_an_array" />
-      <item itemvalue="Application.offer_03_find_in_an_array" />
+      <item itemvalue="Application.Easy_1_TwoSum" />
+      <item itemvalue="Application.Easy_1_TwoSum_New" />
+      <item itemvalue="Application.Easy_704_Binary_Search" />
       <item itemvalue="Application.Producer" />
       <item itemvalue="Application.Consumer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Easy_704_Binary_Search" />
+        <item itemvalue="Application.Easy_1_TwoSum_New" />
+        <item itemvalue="Application.Easy_1_TwoSum" />
         <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Producer" />
-        <item itemvalue="Application.Medium_215_kth_largest_element_in_an_array" />
-        <item itemvalue="Application.offer_03_find_in_an_array" />
-        <item itemvalue="Application.offer_02_repeat_in_an_array" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +304,10 @@
       <workItem from="1629114329936" duration="1186000" />
       <workItem from="1630378631865" duration="5304000" />
       <workItem from="1652944237708" duration="197000" />
+      <workItem from="1663842484048" duration="605000" />
+      <workItem from="1715570551604" duration="1424000" />
+      <workItem from="1715573309902" duration="2899000" />
+      <workItem from="1715587756208" duration="8456000" />
     </task>
     <servers />
   </component>
@@ -289,15 +315,6 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -308,6 +325,15 @@
         <entry key="User">
           <value>
             <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
           </value>
         </entry>
       </map>
