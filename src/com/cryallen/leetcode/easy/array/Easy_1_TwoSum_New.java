@@ -1,10 +1,6 @@
 package com.cryallen.leetcode.easy.array;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * @author : RanChen@cariad-technology.cn
@@ -40,7 +36,7 @@ public class Easy_1_TwoSum_New {
      */
 
     public static void main(String[] args){
-       /* int[] test1 = new int[]{2,7,11,15};
+        int[] test1 = new int[]{2,7,11,15};
         int target1 = -9;
         testCase(test1,target1);
 
@@ -54,26 +50,15 @@ public class Easy_1_TwoSum_New {
 
         int[] test4 = new int[]{2,7,11,15};
         int target4 = 26;
-        testCase(test4,target4);*/
+        testCase(test4,target4);
 
         String str = "abc123!@#";
-        String reg = "\\w*";
         for (char c : str.toCharArray()) {
             if (!Character.isAlphabetic(c) &&!Character.isWhitespace(c) &&!Character.isDigit(c)) {
                 System.out.println(c);
             }
         }
 
-        List<String> matchStrs = new ArrayList<>();
-        Pattern pattern=  Pattern.compile(reg);
-        Matcher matcher = pattern.matcher(str);
-        while (matcher.find()){
-            matchStrs.add(matcher.group());
-        }
-
-        for (String s: matchStrs){
-            System.out.println(s);
-        }
     }
 
     /**
