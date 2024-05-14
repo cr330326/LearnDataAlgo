@@ -58,7 +58,14 @@ public class Easy_0109_String_Rotation_Icci {
         System.out.println("处理结果值：" + result);
     }
 
-    private static boolean rotation(String firstStr,String secondStr) {
+
+    /**
+     * 利用子字符串来寻找
+     * @param firstStr
+     * @param secondStr
+     * @return
+     */
+    private static boolean rotationAll(String firstStr,String secondStr) {
         if(firstStr.equals(secondStr)){
             return true;
         }
@@ -83,6 +90,16 @@ public class Easy_0109_String_Rotation_Icci {
             }
         }
         return false;
+    }
+
+    /**
+     * 利用旋转字符串特性拼接来判断
+     * @param firstStr
+     * @param secondStr
+     * @return
+     */
+    private static boolean rotation(String firstStr,String secondStr) {
+        return firstStr.length() == secondStr.length() && (firstStr + firstStr).contains(secondStr);
     }
 
 
