@@ -104,7 +104,8 @@ public class Easy_704_Binary_Search {
     }
 
     /**
-     * 方式3:二分查找 左闭右闭 [left,right]
+     * 方式3:二分查找 左闭右闭 [left,right] 查找第一个值等于给定值的元素
+     * 比如，数组中存储的这样一个序列：1,3，4，5,6,8,8,8,11,18。如果查找第一个等于8的元素，那下标就是 5。
      * */
     public static int search3(int[] nums, int target) {
         int length = nums.length;
@@ -122,7 +123,11 @@ public class Easy_704_Binary_Search {
         while (left <= right){ // 定义target在左闭右闭的区间里，[left, right]
             middle = left + ((right - left) >> 1);
             if(nums[middle] == target){
-                return middle;
+                if((middle == 0) || (nums[middle -1] != target)){
+                    return middle;
+                }else{
+                    right = middle -1;
+                }
             }else if (nums[middle] > target){
                 right = middle - 1;
             }else{
@@ -134,7 +139,8 @@ public class Easy_704_Binary_Search {
 
 
     /**
-     * 方式4:二分查找 左闭右开 [left,right)
+     * 方式4:二分查找 左闭右闭 [left,right) 查找最后一个值等于给定值的元素
+     *  * 比如，数组中存储的这样一个序列：1,3，4，5,6,8,8,8,11,18。如果查找最后一个等于8的元素，那下标就是 7。
      * */
     public static int search4(int[] nums, int target){
         int length = nums.length;
@@ -143,14 +149,56 @@ public class Easy_704_Binary_Search {
         }
         int left = 0;
         int right = length - 1;
-        if(left < right){ // 因为left == right的时候，在[left, right)是无效的空间，所以使用 <
+        while (left <= right){ // 当left==right，区间[left, right]依然有效，所以用 <=
             int middle = left + ((right - left) >> 1);
             if(target == nums[middle]){
-                return middle;
+                if((middle == length - 1) || (nums[middle + 1] != target)){
+                    return middle;
+                } else{
+                    left = middle + 1;
+                }
             }else if(nums[middle] > target ){
-                right = middle; // target 在左区间，在[left, middle)中
+                right = middle -1; // target 在左区间，在[left, middle]中
             }else {
                 left = middle + 1;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 方式5:二分查找 左闭右闭 [left,right] 查找第一个大于等于给定值的元素
+     * 比如，数组中存储的这样一个序列：3，4，6，7，10。如果查找第一个大于等于 5 的元素，那就是 6。
+     * */
+    public static int bsearch(int[] a, int n, int value) {
+        int low = 0;
+        int high = n - 1;
+        while (low <= high) {
+            int mid =  low + ((high - low) >> 1);
+            if (a[mid] >= value) {
+                if ((mid == 0) || (a[mid - 1] < value)) return mid;
+                else high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 方式6:二分查找 左闭右闭 [left,right] 查找最后一个小于等于给定值的元素
+     * 比如，数组中存储了这样一组数据：3，5，6，8，9，10。最后一个小于等于 7 的元素就是 6。是不是有点类似上面那一种？实际上，实现思路也是一样的。
+     * */
+    public static int bsearch2(int[] a, int n, int value) {
+        int low = 0;
+        int high = n - 1;
+        while (low <= high) {
+            int mid =  low + ((high - low) >> 1);
+            if (a[mid] >= value) {
+                if ((mid == 0) || (a[mid - 1] < value)) return mid;
+                else high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
         return -1;
