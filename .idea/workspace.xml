@@ -183,10 +183,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Medium_Reverse_Words_In_A_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Medium_151_Reverse_Words_In_A_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.string.Medium_Reverse_Words_In_A_String" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.string.Medium_151_Reverse_Words_In_A_String" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
@@ -240,14 +240,14 @@
     <list>
       <item itemvalue="Application.Easy_459_Repeated_Substring_Pattern" />
       <item itemvalue="Application.Easy_541_Reverse_String_II" />
-      <item itemvalue="Application.Medium_Reverse_Words_In_A_String" />
+      <item itemvalue="Application.Medium_151_Reverse_Words_In_A_String" />
       <item itemvalue="Application.Easy_344_Reverse_String" />
       <item itemvalue="Application.ShlTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Easy_459_Repeated_Substring_Pattern" />
-        <item itemvalue="Application.Medium_Reverse_Words_In_A_String" />
+        <item itemvalue="Application.Medium_151_Reverse_Words_In_A_String" />
         <item itemvalue="Application.Easy_541_Reverse_String_II" />
         <item itemvalue="Application.Easy_344_Reverse_String" />
         <item itemvalue="Application.ShlTest" />

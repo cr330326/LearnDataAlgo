@@ -14,7 +14,7 @@ import java.util.List;
  * company: CARIAD (China) Co., Ltd.
  * version: V1.0.0
  */
-public class Medium_Reverse_Words_In_A_String {
+public class Medium_151_Reverse_Words_In_A_String {
 
     /**
      *
