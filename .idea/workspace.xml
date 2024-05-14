@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/string/Medium_Reverse_Words_In_A_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/string/Easy_459_Repeated_Substring_Pattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +86,7 @@
     "Application.Easy_1_TwoSum.executor": "Run",
     "Application.Easy_1_TwoSum_New.executor": "Run",
     "Application.Easy_344_Reverse_String.executor": "Run",
+    "Application.Easy_459_Repeated_Substring_Pattern.executor": "Run",
     "Application.Easy_541_Reverse_String_II.executor": "Run",
     "Application.Easy_704_Binary_Search.executor": "Run",
     "Application.Easy_977_Squares_Of_A_Sorted_Array.executor": "Run",
@@ -114,14 +115,14 @@
       <recent name="$PROJECT_DIR$/src/com/cryallen/leetcode/easy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cryallen.leetcode.easy.string" />
       <recent name="com.cryallen.leetcode.easy.swordoffer.array" />
       <recent name="com.cryallen.leetcode.easy.swordoffer.offer1" />
       <recent name="com.cryallen.leetcode.easy.offer" />
       <recent name="com.cryallen.leetcode.easy.sort" />
-      <recent name="com.cryallen.leetcode.easy.link" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Medium_Reverse_Words_In_A_String">
+  <component name="RunManager" selected="Application.Easy_459_Repeated_Substring_Pattern">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -137,10 +138,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Easy_0109_String_Rotation_Icci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Easy_344_Reverse_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.string.Easy_0109_String_Rotation_Icci" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.string.Easy_344_Reverse_String" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
@@ -152,10 +153,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Easy_344_Reverse_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Easy_459_Repeated_Substring_Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.string.Easy_344_Reverse_String" />
+      <option name="MAIN_CLASS_NAME" value="com.cryallen.leetcode.easy.string.Easy_459_Repeated_Substring_Pattern" />
       <module name="LearnDataAlgo" />
       <extension name="coverage">
         <pattern>
@@ -237,19 +238,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Easy_459_Repeated_Substring_Pattern" />
       <item itemvalue="Application.Easy_541_Reverse_String_II" />
       <item itemvalue="Application.Medium_Reverse_Words_In_A_String" />
-      <item itemvalue="Application.Easy_0109_String_Rotation_Icci" />
       <item itemvalue="Application.Easy_344_Reverse_String" />
       <item itemvalue="Application.ShlTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Easy_459_Repeated_Substring_Pattern" />
         <item itemvalue="Application.Medium_Reverse_Words_In_A_String" />
         <item itemvalue="Application.Easy_541_Reverse_String_II" />
         <item itemvalue="Application.Easy_344_Reverse_String" />
         <item itemvalue="Application.ShlTest" />
-        <item itemvalue="Application.Easy_0109_String_Rotation_Icci" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +311,7 @@
       <workItem from="1715573309902" duration="2899000" />
       <workItem from="1715587756208" duration="8456000" />
       <workItem from="1715650743277" duration="25896000" />
-      <workItem from="1715691161443" duration="3199000" />
+      <workItem from="1715691161443" duration="4495000" />
     </task>
     <servers />
   </component>
