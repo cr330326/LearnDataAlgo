@@ -2,13 +2,13 @@ package com.cryallen.leetcode.easy.array;
 
 
 /***
- * 209. 长度最小的子数组
+ * 209. 长度最小的子数组-滑动窗口
  * @author Allen
  * @DATE 2021-5-26
  ***/
 public class Medium_209_Minimum_Size_SubArray_Sum {
 	/**
-	 * 209. 长度最小的子数组
+	 * 209. 长度最小的子数组-滑动窗口
 	 *
 	 * <p>
 	 * 地址：https://leetcode-cn.com/problems/minimum-size-subarray-sum/

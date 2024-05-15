@@ -72,8 +72,41 @@ public class ShlTest {
         System.out.println("字符串轮转结果: " + result);*/
         //testBasicType();
         //testConvert();
-        testBitOperation();
+        //testBitOperation();
         //testCollectionSort();
+    }
+
+    /**
+     * 处理输入方法
+     */
+    private static void testScanner(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("next方式接收:");
+
+        if(sc.hasNext()){
+            String str1 = sc.next();
+            System.out.println("输入的数据为:" + str1);
+        }
+
+        String input1 = sc.nextLine();
+        int length = input1.length();
+        System.out.println("testScanner length:" + length);
+
+        char[] charArray = input1.toCharArray();
+        char c1 = input1.charAt(0);
+
+        //处理字符串为空输入
+        String[] testNumStrArray = input1.split("\\s");
+        String[] inputIntArray = new String[testNumStrArray.length];
+        for(int j = 0; j < testNumStrArray.length; j++){
+            inputIntArray[j] = testNumStrArray[j];
+            System.out.println("test num:" + testNumStrArray[j]);
+        }
+
+        int[] array1 = {1, 2, 3, 4, 5};
+        String str = String.join(",",Arrays.toString(array1));
+        System.out.println("testScanner str:" + str);
+
     }
 
     /**
@@ -574,6 +607,7 @@ public class ShlTest {
     private static int[] smallerNumbersThanCurrent(int[] nums) {
         //先拷贝一份数组
         int[] arr = nums.clone();
+        int[] arrTest = Arrays.copyOf(nums,nums.length);
         //然后进行升序排序
         Arrays.sort(arr);
         System.out.println("arr升序值: " + Arrays.toString(arr));
