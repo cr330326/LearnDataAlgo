@@ -141,6 +141,7 @@ public class ShlTest {
         //处理字符串遍历打印输出
         StringBuilder sb = new StringBuilder();
         sb.append("test122323");
+        sb.reverse();
         int i = 0;
         while (i < sb.length()){
             char c = sb.charAt(i);
@@ -242,7 +243,6 @@ public class ShlTest {
         //右移运算符(>>)的作用是将操作数的二进制位向右移动指定的位数，空位的值由符号位决定，正数补0，负数补1
         int tt6 = t1 >> 2;  // 结果为1
         System.out.println("tt6: "+ tt6);
-
 
         //位运算-左移
         int a = 4;
@@ -535,5 +535,41 @@ public class ShlTest {
      */
     public static int passwordSecret(int s,int n,int m) {
         return 0;
+    }
+
+
+    /**
+     * 编号006 题目 给你一个数组 nums，对于其中每个元素 nums[i]，请你统计数组中比它小的所有数字的数目
+     * 方法一：排序 + 二分查找
+     * 数组numbs 复制一份，记为arr，然后对arr进行升序排序
+     * 然后对nums中的每个元素x，可以通过二分查找的方法找到第一个大于等于x的元素下标j,那么j就是比x小的元素个数，我们将j存入答案组中即可
+     * 时间复杂度O(n×logn)
+     * */
+    private static int[] smallerNumbersThanCurrent(int[] nums) {
+        //先拷贝一份数组
+        int[] arr = nums.clone();
+        //然后进行升序排序
+        Arrays.sort(arr);
+        System.out.println("arr升序值: " + Arrays.toString(arr));
+        for (int i = 0; i < nums.length; ++i) {
+            nums[i] = binarySearch(arr, nums[i]);
+        }
+        return nums;
+    }
+
+    /**
+     * 二分查找 左闭右开方式
+     * */
+    private static int binarySearch(int[] nums, int x) {
+        int l = 0, r = nums.length;
+        while (l < r) { // 因为left == right的时候，在[left, right)是无效的空间，所以使用 <
+            int mid = (l + r) >> 1;
+            if (nums[mid] >= x) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return l;
     }
 }
