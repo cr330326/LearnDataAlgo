@@ -278,6 +278,32 @@ public class ShlTest {
         //字符排序，降序
         Arrays.sort(characterArray,Collections.reverseOrder());
         System.out.println("降序字符串值: "+ String.valueOf(characterArray));
+
+        //Arrays 二分查找API key-目标值
+        Arrays.binarySearch(charArray, 'c');
+    }
+
+    /**
+     * Java API 默认实现的二分查找方法
+     */
+    // Like public version, but without range checks.
+    private static int binarySearch0(char[] a, int fromIndex, int toIndex,
+                                     char key) {
+        int low = fromIndex;
+        int high = toIndex - 1;
+
+        while (low <= high) {
+            int mid = (low + high) >>> 1;
+            char midVal = a[mid];
+
+            if (midVal < key)
+                low = mid + 1;
+            else if (midVal > key)
+                high = mid - 1;
+            else
+                return mid; // key found
+        }
+        return -(low + 1);  // key not found.
     }
 
     /**
