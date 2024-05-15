@@ -30,8 +30,8 @@ public class ShlTest {
      * 2、可以获得空白。
      */
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("next方式接收:");
+      /*  Scanner sc = new Scanner(System.in);
+        System.out.println("next方式接收:");*/
 
        /* if(sc.hasNext()){
             String str1 = sc.next();
@@ -39,7 +39,7 @@ public class ShlTest {
             shl01(str1);
         }*/
 
-        String input1 = sc.nextLine();
+        //String input1 = sc.nextLine();
         //test:abc123!@#
         //shl01(input1);
 
@@ -66,10 +66,14 @@ public class ShlTest {
 
         int count2 = countUniqueElements(list1, list2);
         System.out.println("不同时属于两个列表的元素的个数: " + count2);*/
-        String s1 = "waterbottle";
+      /*  String s1 = "waterbottle";
         String s2 = "erbottlewat";
         boolean result = rotation003(s1,s2);
-        System.out.println("字符串轮转结果: " + result);
+        System.out.println("字符串轮转结果: " + result);*/
+        //testBasicType();
+        //testConvert();
+        testBitOperation();
+        //testCollectionSort();
     }
 
     /**
@@ -100,12 +104,25 @@ public class ShlTest {
     private static void testBasicType(){
         //字符串数组遍历输出
         String testStr = "e,t,a,tsee";
+        String testStr11 = "e,t,a,tsee";
+
+        testStr.equals(testStr11);
+        testStr.equalsIgnoreCase(testStr11);
+
+        int length = testStr.length();
+        System.out.println("test str length:" + length);
+        int result = testStr.compareTo(testStr11);
+        System.out.println("test str result:" + result);
+
         String[] testArray = testStr.split(",");
         Arrays.sort(testArray);
         List<String> testList = Arrays.asList(testArray);
-
         for(String s: testList){
             System.out.println("test list str:" + s);
+        }
+
+        for(int k= 0; k < testList.size(); k++){
+            System.out.println("test list str:" + testList.get(k));
         }
 
         //字符数组组装为字符串打印
@@ -135,6 +152,132 @@ public class ShlTest {
         char ch = 'a';
         Character characterA = new Character('a');
         System.out.println(characterA);
+
+        //处理字符串为空输入
+        String testNumStr = "2 3 4";
+        String[] testNumStrArray = testNumStr.split("\\s");
+        for(int j = 0; j < testNumStrArray.length; j++){
+            System.out.println("test num:" + testNumStrArray[j]);
+        }
+    }
+
+    /**
+     * 处理数据装换
+     */
+    private static void testConvert(){
+        //double -> int
+        double x = 11.635;
+        System.out.println("double x: "+x);
+        Double testDouble1 = new Double(x);
+        int testIntValue1 = testDouble1.intValue();
+        System.out.println("int testIntValue1: "+testIntValue1);
+        int testDouble2 = (int) x;
+        System.out.println("int testDouble2: "+testDouble2);
+
+        //int -> double
+        int y = 11;
+        System.out.println("int y: "+y);
+        Double testDouble3 = new Double(y);
+        double testDoubleValue1 = Double.valueOf(testDouble3);
+        System.out.println("double testDoubleValue1: "+testDoubleValue1);
+        double testDoubleValue2 = y;
+        System.out.println("double testDoubleValue2: "+testDoubleValue2);
+
+        //string -> int
+        String numberStr = "343434";
+        System.out.println("string numberStr: "+numberStr);
+        Integer testStrNum = Integer.valueOf(numberStr);
+        int testNumValue = testStrNum.intValue();
+        System.out.println("int testNumValue: "+testNumValue);
+
+        //int -> string
+        int number = 343434;
+        System.out.println("int number: "+number);
+        String numberStrValue = String.valueOf(number);
+        System.out.println("numberStrValue:" + numberStrValue);
+
+        //String -> float
+        String floatStr = "3.14f";
+        System.out.println("string floatStr: "+floatStr);
+        Float testStrFloat = Float.valueOf(floatStr);
+        float testFloatValue = testStrFloat.floatValue();
+        System.out.println("float testFloatValue: "+testFloatValue);
+
+        //float -> String
+        float floatTest = 3.14f;
+        System.out.println("float floatTest: "+floatTest);
+        String floatTestValueStr = String.valueOf(floatTest);
+        System.out.println("floatTestValueStr: "+floatTestValueStr);
+    }
+
+    /**
+     * 位运算操作
+     */
+    private static void testBitOperation(){
+        int t1 = 5; //二进制 5 = 101
+        System.out.println("t1 二进制: "+ Integer.toBinaryString(t1));
+        int t2 = 3; //二进制 3 = 011
+        System.out.println("t2 二进制: "+ Integer.toBinaryString(t2));
+
+        //按位与运算符(&)的作用是将操作数的每个对应位都进行与运算，结果位的值为1只有当两个操作数对应位都为1时才会出现
+        int tt1 = t1 & t2;  // 结果为1
+        System.out.println("tt1: "+ tt1);
+
+        //按位或运算符(|)的作用是将操作数的每个对应位都进行或运算，结果位的值为1只要有一个操作数对应位为1就会出现
+        int tt2 = t1 | t2;  // 结果为7
+        System.out.println("tt2: "+ tt2);
+
+        //按位异或运算符(^)的作用是将操作数的每个对应位都进行异或运算，结果位的值为1只有当两个操作数对应位不同才会出现
+        int tt3 = t1 ^ t2;  // 结果为6
+        System.out.println("tt3: "+ tt3);
+
+        //按位取反运算符(~)的作用是将操作数的每个对应位都进行取反操作(0变成1，1变成0)
+        int tt4 = ~t1;  // 结果为-6
+        System.out.println("tt4: "+ tt4);
+
+        //左移运算符(<<)的作用是将操作数的二进制位向左移动指定的位数，空位补0
+        int tt5 = t1 << 2;  // 结果为20
+        System.out.println("tt5: "+ tt5);
+
+        //右移运算符(>>)的作用是将操作数的二进制位向右移动指定的位数，空位的值由符号位决定，正数补0，负数补1
+        int tt6 = t1 >> 2;  // 结果为1
+        System.out.println("tt6: "+ tt6);
+
+
+        //位运算-左移
+        int a = 4;
+        System.out.println("原始值 a: "+a);
+        a = a << 2; //左移2位，相当于乘以 2^2 结果为16
+        System.out.println("左移2位之后 a: "+a);
+
+        //位运算-右移
+        int b = 8;
+        System.out.println("原始值 b: "+b);
+        b = b >> 2; //有符号-右移2位，相当于除以 2^2 结果为2
+        System.out.println("有符号右移2位之后 b: "+b);
+        int c = 16;
+        c = c >>> 2; //无符号-右移2位，相当于除以 2^2 结果为4
+        System.out.println("无符号右移2位之后 c: "+c);
+    }
+
+    /**
+     * 集合排序
+     */
+    private static void testCollectionSort(){
+        String testStr = "tesgabcdr";
+        System.out.println("字符串原始值: "+ testStr);
+        char[] charArray = testStr.toCharArray();
+        //字符排序，默认是升序
+        Arrays.sort(charArray);
+        System.out.println("升序字符串值: "+ String.valueOf(charArray));
+
+        Character[] characterArray = new Character[charArray.length];
+        for (int i = 0; i < charArray.length; i++) {
+            characterArray[i] = charArray[i];
+        }
+        //字符排序，降序
+        Arrays.sort(characterArray,Collections.reverseOrder());
+        System.out.println("降序字符串值: "+ String.valueOf(characterArray));
     }
 
     /**
@@ -382,5 +525,15 @@ public class ShlTest {
             end++;
         }
         return ans == Integer.MAX_VALUE ? 0 : ans;
+    }
+
+
+    /**
+     * 编号005 题目
+     * 鲍勃需要给他的密码加密，现在他有数值s，然后有个键值n和m，都是整数，密码规则是：s的n次平方取模10，得到一个结果，然后根据这个结果进行m次平方得到一个新的值，最终对这个新的值进行取模1000000007
+     * (((s^n)%10)^m)%1000000007
+     */
+    public static int passwordSecret(int s,int n,int m) {
+        return 0;
     }
 }
