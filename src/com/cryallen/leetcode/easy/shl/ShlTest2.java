@@ -41,16 +41,18 @@ public class ShlTest2 {
         String nextDayLights = calculateNextDayLights(M, lightsStr);
         System.out.println(nextDayLights);*/
 
+        String testNextDayLights = calculateNextDayLights(1, "11101111");
+        System.out.println(testNextDayLights);
 
         // 示例输入
-        int M = 2; // 天数
+       /* int M = 2; // 天数
         int[] lights = {1, 1, 1, 0, 1, 1, 1, 1}; // 初始路灯状态
 
         // 输出M天后的路灯状态
         int[] result = simulateLightsNew(M, lights);
         for (int light : result) {
             System.out.print(light + " ");
-        }
+        }*/
     }
 
     /**
@@ -78,9 +80,8 @@ public class ShlTest2 {
      位置2处的路灯相邻的路灯为0和1，所以，第二天，它将为1。
      位置3处的路灯为0，两个相邻路灯都力1，所以，第二天是0。位置3处的路灯只会
      同样，我们可以找出其余路灯第二天的状态
-     所以，第一天之后的路灯状态是1010
-     1001
-     两天~之后，路灯的状态是0000011
+     所以，第一天之后的路灯状态是10101001
+     两天~之后，路灯的状态是00000110
      * */
 
     public static String calculateNextDayLights(int M, String lightsStr) {
@@ -90,82 +91,38 @@ public class ShlTest2 {
         for (int i = 0; i < M; i++) {
             char[] nextDay = new char[8];
             for (int j = 0; j < 8; j++) {
-                if (lights[j] == '0') {
-                    // 路灯为 0，且相邻路灯都是 1，第二天该路灯将亮起
-                    if ((j == 0 || lights[j - 1] == '1') && (j == 7 || lights[j + 1] == '1')) {
-                        nextDay[j] = '1';
-                    } else {
+                if(j == 0){
+                    if(lights[j + 1] == '0'){
                         nextDay[j] = '0';
+                    }else{
+                        nextDay[j] = '1';
                     }
-                } else {
-                    // 路灯为 1，第二天该路灯将熄灭
+                }else if(j == 7){
+                    if(lights[j - 1] == '0'){
+                        nextDay[j] = '0';
+                    }else{
+                        nextDay[j] = '1';
+                    }
+                }else if((lights[j - 1] == '0') && (lights[j + 1] == '0')){
                     nextDay[j] = '0';
+                }else if((lights[j - 1] == '1') && (lights[j + 1] == '1')){
+                    nextDay[j] = '0';
+                }else if((lights[j - 1] == '0') && (lights[j + 1] == '1')){
+                    nextDay[j] = '1';
+                }else if((lights[j - 1] == '1') && (lights[j + 1] == '0')){
+                    nextDay[j] = '1';
                 }
             }
             lights = nextDay;
         }
 
+        StringBuilder sb = new StringBuilder();
+        for (char c: lights){
+            sb.append(c);
+            sb.append(" ");
+        }
         // 将路灯状态转换为字符串并返回
-        return new String(lights);
-    }
-
-    // 模拟路灯状态变化M天
-    public static int[] simulateLights(int M, int[] lights) {
-        // 复制一份初始状态，避免影响原始数组
-        int[] currentState = lights.clone();
-
-        for (int day = 0; day < M; day++) {
-            // 创建一个新的数组来存储下一天的状态
-            int[] nextState = new int[lights.length];
-
-            // 遍历每个路灯
-            for (int i = 0; i < lights.length; i++) {
-                // 确定相邻路灯的状态
-                int left = (i == 0) ? 0 : currentState[i - 1]; // 左边路灯的状态，如果是第一个则认为是0
-                int right = (i == lights.length - 1) ? 0 : currentState[i + 1]; // 右边路灯的状态，如果是最后一个则认为是0
-
-                // 根据规则更新路灯状态
-                if (left == right) {
-                    nextState[i] = 1 - currentState[i]; // 如果相邻路灯状态相同，则翻转当前路灯状态
-                } else {
-                    nextState[i] = currentState[i]; // 否则保持当前状态
-                }
-            }
-
-            // 更新当前状态为下一天的状态
-            currentState = nextState;
-        }
-
-        // 返回最后一天的状态
-        return currentState;
-    }
-
-    // 模拟路灯状态变化M天
-    public static int[] simulateLightsNew(int M, int[] lights) {
-        // 直接在原始数组上修改状态
-        for (int day = 0; day < M; day++) {
-            int[] nextState = new int[lights.length];
-
-            // 遍历每个路灯
-            for (int i = 0; i < lights.length; i++) {
-                // 确定相邻路灯的状态
-                int left = (i == 0) ? 0 : lights[i - 1]; // 左边路灯的状态，如果是第一个则认为是0
-                int right = (i == lights.length - 1) ? 0 : lights[i + 1]; // 右边路灯的状态，如果是最后一个则认为是0
-
-                // 根据规则更新路灯状态
-                if (left == right) {
-                    nextState[i] = 1 - lights[i]; // 如果相邻路灯状态相同，则翻转当前路灯状态
-                } else {
-                    nextState[i] = lights[i]; // 否则保持当前状态
-                }
-            }
-
-            // 更新当前状态为下一天的状态
-            lights = nextState;
-        }
-
-        // 返回最后一天的状态
-        return lights;
+        return sb.toString();
     }
 
     /**
