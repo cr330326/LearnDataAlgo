@@ -359,6 +359,13 @@ public class ShlTest {
             }
         }
 
+        //aaa fff 22 &&&***
+
+        //对这个字符串遍历
+        //对每个字符串进行判断 利用系统api接口能力进行对判断，比如用是否是一个字母，是否是一个数字字符，是否是一个空白字符
+        //计数器来统计不属于这个个数
+
+
        /* String reg = "\\W*";   //\w获取字母和数字 \W排除字母和数字 \s匹配任何空白字符，包括空格、制表符、换页符等等 \S匹配任何非空白字符
         String str = "abc 123!@#";
 
@@ -401,6 +408,8 @@ public class ShlTest {
      * 解题思路：
      * 我们分别遍历了两个列表，并对每个元素进行了检查。如果一个元素只在一个列表中出现，我们就增加计数器的值。
      * 这样，我们就能够计算出所有不同时存在于两个列表中的元素的总数（包括重复的元素）。
+     *
+     *
      */
     public static int countUniqueElements(List<Integer> list1, List<Integer> list2) {
         // 初始化计数器
@@ -475,6 +484,15 @@ public class ShlTest {
      * 说明:
      *
      * 你能只调用一次检查子串的方法吗？
+     * waterbottle
+     * aterbottlew
+     *
+     * waterbottle
+     * terbottlewa
+     *
+     * waterbottle
+     * erbottlewat
+     *
      */
     private static boolean rotation003(String firstStr,String secondStr) {
         if(firstStr.equals(secondStr)){
@@ -590,7 +608,11 @@ public class ShlTest {
     /**
      * 编号005 题目
      * 鲍勃需要给他的密码加密，现在他有数值s，然后有个键值n和m，都是整数，密码规则是：s的n次平方取模10，得到一个结果，然后根据这个结果进行m次平方得到一个新的值，最终对这个新的值进行取模1000000007
-     * (((s^n)%10)^m)%1000000007
+     * (((s^n)%10)^m)% 1000000007
+     *
+     * S = 2
+     * n =3
+     *  m= 4
      */
     public static int passwordSecret(int s,int n,int m) {
         return 0;
