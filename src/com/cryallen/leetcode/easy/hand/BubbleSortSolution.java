@@ -45,7 +45,7 @@ public class BubbleSortSolution {
             boolean flag = false;
 
             //每一次循环，前后两个值进行两两判断比对，如果前一位值比后一位值大，则进行两两交换
-            for(int j = i; j < resultArray.length -1; j++){
+            for(int j = 0; j < resultArray.length - i -1; j++){
                 if(resultArray[j] > resultArray[j + 1]){
                     int temp = resultArray[j];
                     resultArray[j] = resultArray[j + 1];
