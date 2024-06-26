@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/offer1/Singleton4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/hand/BubbleSortSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/hand/BubbleSortSolution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,9 +243,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.BubbleSortSolution" />
-      <item itemvalue="Application.ShlTest2" />
       <item itemvalue="Application.Easy_1365_How_Many_Numbers" />
       <item itemvalue="Application.Medium_215_kth_largest_element_in_an_array" />
+      <item itemvalue="Application.ShlTest2" />
       <item itemvalue="Application.ShlTest" />
     </list>
     <recent_temporary>
@@ -325,7 +325,11 @@
       <workItem from="1715846261453" duration="1226000" />
       <workItem from="1715911769874" duration="182000" />
       <workItem from="1715940259408" duration="1077000" />
-      <workItem from="1716017476732" duration="59000" />
+      <workItem from="1716017476732" duration="292000" />
+      <workItem from="1717737179793" duration="550000" />
+      <workItem from="1718081814899" duration="625000" />
+      <workItem from="1718093118709" duration="4000" />
+      <workItem from="1719384590998" duration="150000" />
     </task>
     <servers />
   </component>
