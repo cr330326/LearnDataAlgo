@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/swordoffer/offer1/Singleton4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -329,7 +326,7 @@
       <workItem from="1717737179793" duration="550000" />
       <workItem from="1718081814899" duration="625000" />
       <workItem from="1718093118709" duration="4000" />
-      <workItem from="1719384590998" duration="150000" />
+      <workItem from="1719384590998" duration="552000" />
     </task>
     <servers />
   </component>
