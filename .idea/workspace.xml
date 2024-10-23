@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="" />
+    <list default="true" id="355ebf2e-e86e-409e-8d73-6c7e649bb491" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +57,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "cr330326"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:cr330326/LearnDataAlgo.git",
+    "accountId": "a0a2c5e2-550e-48fd-99f1-bc0ffe0d310d"
+  }
+}]]></component>
   <component name="KubernetesApiProvider">{
   &quot;contexts&quot;: [
     {
@@ -77,39 +91,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BubbleSortSolution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Easy_0109_String_Rotation_Icci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Easy_1365_How_Many_Numbers.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Easy_1_TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Easy_1_TwoSum_New.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Easy_344_Reverse_String.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Easy_459_Repeated_Substring_Pattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Easy_541_Reverse_String_II.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Easy_704_Binary_Search.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Easy_977_Squares_Of_A_Sorted_Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Medium_215_kth_largest_element_in_an_array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Medium_Reverse_Words_In_A_String.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShlTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShlTest2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vsh9p8q/Personal/LearnDataAlgo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BubbleSortSolution.executor": "Run",
+    "Application.Easy_0109_String_Rotation_Icci.executor": "Run",
+    "Application.Easy_1365_How_Many_Numbers.executor": "Debug",
+    "Application.Easy_1_TwoSum.executor": "Run",
+    "Application.Easy_1_TwoSum_New.executor": "Run",
+    "Application.Easy_344_Reverse_String.executor": "Run",
+    "Application.Easy_459_Repeated_Substring_Pattern.executor": "Run",
+    "Application.Easy_541_Reverse_String_II.executor": "Run",
+    "Application.Easy_704_Binary_Search.executor": "Run",
+    "Application.Easy_977_Squares_Of_A_Sorted_Array.executor": "Run",
+    "Application.Medium_215_kth_largest_element_in_an_array.executor": "Run",
+    "Application.Medium_Reverse_Words_In_A_String.executor": "Run",
+    "Application.ShlTest.executor": "Run",
+    "Application.ShlTest2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/vsh9p8q/Personal/LearnDataAlgo/src/com/cryallen/leetcode/cea",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/cryallen/leetcode/cea" />
       <recent name="$PROJECT_DIR$/src/com/cryallen/leetcode/easy/queue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -255,6 +271,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -327,6 +351,7 @@
       <workItem from="1718081814899" duration="625000" />
       <workItem from="1718093118709" duration="4000" />
       <workItem from="1719384590998" duration="552000" />
+      <workItem from="1725935337901" duration="1620000" />
     </task>
     <servers />
   </component>
